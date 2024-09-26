@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>QUAL TORNEIRA VOCÊ É?</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" href="/torneira/images/iconedetornera.png" type="image/png">
+    </head>
+<body>
+    <h1>QUAL TORNEIRA VOCÊ É?</h1>
+    <form id="questionario">
+        <p class="subtexto">Responda essas questões simples, para descobrir seus traços de personalidade e conseguiremos dizer com qual torneira você se parece.</p>
+        <div class="question">
+            <p>1. Como você prefere resolver problemas?</p>
+            <label><input type="radio" name="q1" value="a" required> a) Debatendo ideias e explorando possibilidades</label>
+            <label><input type="radio" name="q1" value="b"> b) Tomando decisões rápidas e implementando soluções</label>
+        </div>
+        
+        <div class="question">
+            <p>2. Em um ambiente social, você tende a:</p>
+            <label><input type="radio" name="q2" value="a" required> a) Cuidar do bem-estar dos outros, garantindo que todos estejam confortáveis</label>
+            <label><input type="radio" name="q2" value="b"> b) Liderar e inspirar os outros com sua visão e carisma</label>
+        </div>
+        
+        <div class="question">
+            <p>3. O que mais te atrai em um objeto ou ambiente?</p>
+            <label><input type="radio" name="q3" value="a" required> a) A harmonia e o significado por trás dele</label>
+            <label><input type="radio" name="q3" value="b"> b) A experiência sensorial e estética que ele proporciona</label>
+        </div>
+        
+        <div class="question">
+            <p>4. Ao enfrentar um desafio, você prefere:</p>
+            <label><input type="radio" name="q4" value="a" required> a) Usar suas habilidades práticas para encontrar uma solução imediata</label>
+            <label><input type="radio" name="q4" value="b"> b) Analisar todas as possibilidades teóricas antes de agir</label>
+        </div>
+        
+        <div class="question">
+            <p>5. Em situações novas, você tende a:</p>
+            <label><input type="radio" name="q5" value="a" required> a) Adaptar-se rapidamente e aproveitar o momento</label>
+            <label><input type="radio" name="q5" value="b"> b) Avaliar a situação e buscar maneiras de controlá-la</label>
+        </div>
+        
+        <div class="question">
+            <p>6. No trabalho, você se sente mais confortável:</p>
+            <label><input type="radio" name="q6" value="a" required> a) Seguindo rotinas estabelecidas e mantendo a ordem</label>
+            <label><input type="radio" name="q6" value="b"> b) Liderando e organizando os outros para alcançar objetivos</label>
+        </div>
+        
+        <div class="question">
+            <p>7. Ao tomar decisões, você prioriza:</p>
+            <label><input type="radio" name="q7" value="a" required> a) Fatos concretos e experiências passadas</label>
+            <label><input type="radio" name="q7" value="b"> b) Eficiência e resultados práticos</label>
+        </div>
+        
+        <div class="question">
+            <p>8. Em um projeto criativo, você prefere:</p>
+            <label><input type="radio" name="q8" value="a" required> a) Explorar múltiplas ideias e possibilidades</label>
+            <label><input type="radio" name="q8" value="b"> b) Estabelecer uma visão clara e mobilizar outros para realizá-la</label>
+        </div>
+        
+        <div class="question">
+            <p>9. Como você lida com mudanças?</p>
+            <label><input type="radio" name="q9" value="a" required> a) Adapto-me facilmente e vejo as mudanças como oportunidades</label>
+            <label><input type="radio" name="q9" value="b"> b) Prefiro manter as coisas estáveis e previsíveis</label>
+        </div>
+        
+        <div class="question">
+            <p>10. Ao interagir com os outros, você tende a:</p>
+            <label><input type="radio" name="q10" value="a" required> a) Ser empático e focado nas necessidades emocionais das pessoas</label>
+            <label><input type="radio" name="q10" value="b"> b) Ser objetivo e focado em resolver problemas práticos</label>
+        </div>
+        
+        <button type="submit">Enviar Respostas</button>
+    </form>
+
+    <div id="resultado"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
