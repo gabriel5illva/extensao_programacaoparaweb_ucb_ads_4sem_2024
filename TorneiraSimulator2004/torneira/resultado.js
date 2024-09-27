@@ -14,7 +14,7 @@ function exibirResultado(torneira) {
         'Torneira com Controle de Vazão': 'Você é uma torneira adaptável e gosta de controlar o fluxo de tudo que passa por você. Essa torneira reflete sua flexibilidade e seu desejo de dominar desafios de maneira prática.',
         'Torneira de Duas Alavancas': 'Você é uma torneira tradicional e confiável. Essa torneira simboliza seu apreço por controle preciso e ordem.',
         'Torneira de Rosca Manual': 'Você é uma torneira clássica e de alta durabilidade, com um forte senso de controle. Essa torneira reflete sua valorização da precisão e sua abordagem prática e direta, sem rodeios.',
-        'Torneira de Misturador Monocomando': 'Você é uma torneira intuitiva e adaptável. Esta torneira representa sua habilidade de se adaptar sem perder a origininalidade.'
+        'Torneira de Misturador Monocomando': 'Você é uma torneira intuitiva e adaptável. Essa torneira representa sua habilidade de se adaptar sem perder a origininalidade.'
     };
 
     const imagens = {
